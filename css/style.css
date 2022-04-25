@@ -498,14 +498,14 @@ header .nav-left .nav-list li a:hover {
 .services .card {
   overflow: hidden;
   border-radius: 10px;
-  background-color: var(--background-color);
-  border: 2px solid var(--secondery-color);
+  background-color: var(--body-color);
+  /* border: 2px solid var(--secondery-color); */
   transition: var(--main-transition);
-  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 40%);
 }
 .services .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 50%);
 }
 .services .card img {
   max-width: 100%;
