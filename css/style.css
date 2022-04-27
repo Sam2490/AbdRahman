@@ -1102,14 +1102,14 @@ header .nav-left .nav-list li a:hover {
   border-color: var(--main-color);
 }
 .dark-theme .services .card {
-  background-color: var(--main-color-alt);
-  box-shadow: 0 2px 15px rgba(255, 255, 255, 10%);
+  background-color: var(--container-color);
+  box-shadow: 0 2px 15px rgba(255, 255, 255, 20%);
 }
 .dark-theme .services .card h3 {
   color: #fff;
 }
 .dark-theme .services .card:hover {
-  box-shadow: 0 2px 15px rgb(255 255 255 / 20%);
+  box-shadow: 0 2px 15px rgb(255 255 255 / 30%);
 }
 .dark-theme .portfolio .card::before {
   background-color: var(--container-color);
